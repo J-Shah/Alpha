@@ -7,6 +7,7 @@ void printVector(vector<int> b)
 	for (int i = 0; i < b.size(); i++)
 	{
 		std::cout << "vector[" << i << "] " << b[i] << std::endl;
+		std::cout << "size of the vector " << b.size() << std::endl;
 	}
 }
 
