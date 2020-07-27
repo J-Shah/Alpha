@@ -3,6 +3,7 @@
 
 using namespace std;
 void printVector(vector<int> b)
+	// this prints vector
 {
 	for (int i = 0; i < b.size(); i++)
 	{
