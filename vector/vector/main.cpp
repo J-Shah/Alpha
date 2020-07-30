@@ -10,12 +10,13 @@ void printVector(vector<int> b)
 	{
 		std::cout << "vector[" << i << "] " << b[i] << std::endl;
 		std::cout << "size of the vector " << b.size() << std::endl;
+		std::cout << "size of the vector2 " << b.size() << std::endl;
 	}
 }
 
 int main()
 {
-	std::vector<int> items{ 10,20 };
+	std::vector<int> items{ 10,30 };
 	std::cout << items[0] << std::endl;
 
 	items.push_back(7);  // add 7 in the vector
